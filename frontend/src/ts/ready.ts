@@ -23,7 +23,7 @@ $((): void => {
     window.localStorage.getItem("merchbannerclosed") === "true";
   if (!merchBannerClosed) {
     Notifications.addBanner(
-      `Check out our merchandise, available at <a target="_blank" rel="noopener" href="https://monkeytype.store/">monkeytype.store</a>`,
+      `Check out our GitHub, available at <a target="_blank" rel="noopener" href="https://github.com/lugvitc">github.com/lugvitc</a>`,
       1,
       "./images/merch2.png",
       false,
