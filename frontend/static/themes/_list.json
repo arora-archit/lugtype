@@ -1,5 +1,13 @@
 [
   {
+    "name": "lugvitc",
+    "bgColor": "#0c0d11",
+    "mainColor": "#7ebab5",
+    "subColor": "#546e7a",
+    "textColor": "#aed581"
+  },
+
+  {
     "name": "dark_note",
     "bgColor": "#1f1f1f",
     "mainColor": "#f2c17b",
