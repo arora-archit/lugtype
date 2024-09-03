@@ -666,7 +666,7 @@ export function updateTitle(title?: string): void {
 
   if (title === undefined || title === "") {
     document.title =
-      local + "Monkeytype | A minimalistic, customizable typing test";
+      local + "Lugtype | A minimalistic, customizable typing test";
   } else {
     document.title = local + title;
   }
