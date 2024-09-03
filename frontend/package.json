@@ -10,6 +10,7 @@
     "dep-graph": "madge -c -i \"dep-graph.png\" ./src/ts",
     "ts-check": "tsc --noEmit",
     "build": "npm run madge && vite build",
+    "lug:upload": "docker build -t reg.lugvitc.net/lugtype dist -f Dockerfile && docker push reg.lugvitc.net/lugtype",
     "madge": " madge --circular --extensions ts ./src",
     "live": "npm run build && vite preview --port 3000",
     "dev": "vite dev",

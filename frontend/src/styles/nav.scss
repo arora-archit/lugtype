@@ -152,6 +152,7 @@ header {
     gap: 0.5rem;
     transition: none;
     text-decoration: none;
+    align-items: center;
     color: var(--text-color);
     padding: 0.35rem 0.25rem;
     margin-left: -0.25rem;
@@ -170,6 +171,7 @@ header {
     }
     .text {
       .top {
+        display: none;
         position: absolute;
         left: 0.35em;
         font-size: 0.325em;
