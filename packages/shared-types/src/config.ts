@@ -80,7 +80,6 @@ export type HighlightMode =
   | "next_two_words"
   | "next_three_words";
 export type TypingSpeedUnit = "wpm" | "cpm" | "wps" | "cps" | "wph";
-export type Ads = "off" | "result" | "on" | "sellout";
 export type MinimumAccuracy = "off" | "custom";
 export type RepeatQuotes = "off" | "typing";
 export type OppositeShiftMode = "off" | "on" | "keymap";
@@ -156,7 +155,7 @@ export type Config = {
   minWpmCustomSpeed: number;
   highlightMode: HighlightMode;
   typingSpeedUnit: TypingSpeedUnit;
-  ads: Ads;
+  ads: "off";
   hideExtraLetters: boolean;
   strictSpace: boolean;
   minAcc: MinimumAccuracy;
